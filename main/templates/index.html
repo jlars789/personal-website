@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="static/styles.css" />
+        <link rel="stylesheet" href="static/styles.css?{% now 'U' %}" />
+        <div class="topnav">
+            <span id="sitename"><b>jlars789</b></span>
+            
+            <a href="">!</a>
+            <a href="https://www.dropbox.com/s/u38cs3vbvg5p2bh/RESUME.pdf?dl=0">Resume</a>
+            <a href="/employ">Professional</a></li>
+            <a class="active" href="/">Home</a>
+            <a href="/hidden" id="ee"> </a>
+        </div>
     </head>
+    
     <body>
-        <h1>Joseph Larson's Page, jlars789</h1>
-        <h4>This is a <i>very</i> early work in progress</h4>
-        <p>I'm honestly not sure how you even found this, considering I'm in the very early stages of making this</p>
-        <p>As some easter egg, I might leave this in as some unstyled html document as a relic from the end of 2022</p>
-        <p>Maybe somebody will find it. If so, hello!</p>
-        <ul>
-            <li><a href=https://github.com/jlars789>My Github</a></li>
-        </ul>
-        <p>Visits to this site: {{visits}}</p>
+        <div class="main">
+            <h1>Joseph Larson</h1>
+            <h3>University of Virginia - Computer Science '23</h3>
+            <h4>This is a <i>very</i> early work in progress</h4>
+            <p>Thanks for visiting my website!</p>
+            <p>I'm a computer science student that is 9 credits from graduation and I'm not too sure what I want to specialize in.</p>
+            <p>This is partially to showcase my portfolio to potential employers (Professional tab).</p>
+            <p>It's also a cool way for me to show off my projects. This website is a project itself!</p>
+            <p>Visits to this site: {{visits}}</p>
+        </div>
     </body>
 </html>

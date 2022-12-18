@@ -19,5 +19,7 @@ from django.urls import path        #type: ignore
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('hidden', views.ee),
+    path('employ', views.professional)
 ]
